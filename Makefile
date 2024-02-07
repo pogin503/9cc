@@ -1,4 +1,6 @@
-CFLAGS=-std=c11 -g -static
+CFLAGS=-std=c11 -g -static -fcf-protection=full \
+	-Wall
+
 
 9cc: 9cc.c
 
